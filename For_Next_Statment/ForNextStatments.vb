@@ -9,8 +9,8 @@ Option Strict On
 Module ForNextStatments
 
     Sub Main()
-        For i As Integer = 1 To 10 Step 1
-            'Do Stuff
+        For i = 1 To 10 Step 0.5
+            Console.WriteLine(i)
         Next
     End Sub
 
